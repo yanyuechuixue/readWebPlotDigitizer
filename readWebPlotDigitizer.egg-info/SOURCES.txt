@@ -1,7 +1,0 @@
-README.md
-setup.py
-readWebPlotDigitizer/__init__.py
-readWebPlotDigitizer.egg-info/PKG-INFO
-readWebPlotDigitizer.egg-info/SOURCES.txt
-readWebPlotDigitizer.egg-info/dependency_links.txt
-readWebPlotDigitizer.egg-info/top_level.txt
