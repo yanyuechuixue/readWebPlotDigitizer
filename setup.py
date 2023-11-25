@@ -12,6 +12,5 @@ setup(
     url='https://github.com/yanyuechuixue/readWebPlotDigitizer',
     license='MIT',
     install_requires=[
-        'csv'
     ],
 )
