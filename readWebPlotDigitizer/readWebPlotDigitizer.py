@@ -22,9 +22,13 @@ def readWebPlotDigitizer(file_path):
                     try:
                         x = float(row[x_index])
                         y = float(row[y_index])
-                        data[color].append(np.array([x, y]))
+                        data[color].append([x, y])
                     except ValueError:
                         # 如果转换失败，则忽略这个值
                         continue
+    # 将每个颜色的数据转换为NumPy数组
+    for color in colors:
+        data[color] = np.array(data[color])
+        
     return  data
 

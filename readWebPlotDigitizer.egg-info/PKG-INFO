@@ -7,5 +7,6 @@ Author: Zhi-Chao Zhao
 Author-email: yanyuechuixue@gmail.com
 License: MIT
 Description-Content-Type: text/markdown
+Requires-Dist: numpy
 
 # readWebPlotDigitizer
