@@ -1,4 +1,5 @@
 import csv
+import numpy as np
 
 def readWebPlotDigitizer(file_path):
     data = {}
@@ -25,4 +26,5 @@ def readWebPlotDigitizer(file_path):
                     except ValueError:
                         # 如果转换失败，则忽略这个值
                         continue
-    return data
+    return np.asarray(data)
+
